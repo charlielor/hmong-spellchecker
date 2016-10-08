@@ -2,9 +2,9 @@
   "name": "hmong-spellchecker",
   "version": "0.0.1",
   "description": "A Hmong word spellchecker",
-  "main": "lib/index.js",
+  "main": "lib/spellchecker.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tests/spellchecker.js"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,9 @@
     "url": "https://github.com/charlielor/hmong-spellchecker/issues"
   },
   "homepage": "https://github.com/charlielor/hmong-spellchecker#readme",
-  "dependencies": {
+  "devDependencies": {
+    "eslint": "^3.7.1",
+    "eslint-config-google": "^0.6.0",
     "mocha": "^3.1.0",
     "should": "^11.1.0"
   }
