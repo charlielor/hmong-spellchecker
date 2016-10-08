@@ -109,34 +109,40 @@ describe('Valid Hmong words', function () {
             });
         });
 
-        it('valid word - "LIAB"', function () {
+        it('valid word (all caps) - "LIAB"', function () {
             hmongspellchecker.check('LIAB', function (result) {
                 result.should.equal(true);
             });
         });
 
-        it('valid word - "nTsUaB"', function () {
+        it('valid word (mixed capitalization) - "nTsUaB"', function () {
             hmongspellchecker.check('nTsUaB', function (result) {
+                result.should.equal(true);
+            });
+        });
+
+        it('valid word (no tone maker) - "pw"', function () {
+            hmongspellchecker.check('pw', function (result) {
+                result.should.equal(true);
+            });
+        });
+
+        it('valid word (no consonant) - "aws"', function () {
+            hmongspellchecker.check('aws', function (result) {
                 result.should.equal(true);
             });
         });
     });
 
     describe('hmong green words', function () {
-        it('valid word - "dlaab"', function () {
-            hmongspellchecker.check('dlaab', function (result) {
+        it('valid word - "dlawb"', function () {
+            hmongspellchecker.check('dlawb', function (result) {
                 result.should.equal(true);
             });
         });
 
-        it('valid word - "XAAV"', function () {
-            hmongspellchecker.check('XAAV', function (result) {
-                result.should.equal(true);
-            });
-        });
-
-        it('valid word - ""', function () {
-            hmongspellchecker.check('XAAV', function (result) {
+        it('valid word - "DLEV"', function () {
+            hmongspellchecker.check('DLEV', function (result) {
                 result.should.equal(true);
             });
         });
