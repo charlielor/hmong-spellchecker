@@ -1,0 +1,27 @@
+{
+  "name": "hmong-spellchecker",
+  "version": "0.0.1",
+  "description": "A Hmong word spellchecker",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charlielor/hmong-spellchecker.git"
+  },
+  "keywords": [
+    "hmong",
+    "spellchecker"
+  ],
+  "author": "Charlie Lor <lorcharlie@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/charlielor/hmong-spellchecker/issues"
+  },
+  "homepage": "https://github.com/charlielor/hmong-spellchecker#readme",
+  "dependencies": {
+    "mocha": "^3.1.0",
+    "should": "^11.1.0"
+  }
+}
