@@ -29,9 +29,9 @@ $ mocha tests/spellchecker.js
 
 # Notes
 
-1) There are only ~64-68 beginning consonants in a Romanized Hmong word
-2) There are only ~14 vowels in the middle of a Romanized Hmong word
-3) There are only ~8 ending tones (tone makers) in a Romanized Hmong word
+1. There are only ~64-68 beginning consonants in a Romanized Hmong word
+2. There are only ~14 vowels in the middle of a Romanized Hmong word
+3. There are only ~8 ending tones (tone makers) in a Romanized Hmong word
 
 There are a few Hmong dialects around the world. The two most popular one, in America at least, are Hmong White (dawb) and Hmong Green (lees). The regular expression above accounts for both dialects.
 
