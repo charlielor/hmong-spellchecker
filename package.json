@@ -22,7 +22,6 @@
   "homepage": "https://github.com/charlielor/hmong-spellchecker#readme",
   "devDependencies": {
     "eslint": "^3.7.1",
-    "eslint-config-google": "^0.6.0",
     "mocha": "^3.1.0",
     "should": "^11.1.0"
   }
