@@ -36,3 +36,5 @@ $ mocha tests/spellchecker.js
 There are a few Hmong dialects around the world. The two most popular one, in America at least, are Hmong White (dawb) and Hmong Green (lees). The regular expression above accounts for both dialects.
 
 # Contributers
+Sheng Lee
+Sheng Vang
